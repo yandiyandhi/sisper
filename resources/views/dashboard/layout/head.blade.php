@@ -46,3 +46,9 @@
         </span>
     </li>
 </ul>
+
+<script>
+    $(document).ready(function() {
+        $(".alert-dismissible").fadeIn().delay(2000).fadeOut();
+    });
+</script>

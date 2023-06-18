@@ -1,11 +1,5 @@
 @extends('dashboard.layout.index')
 @section('cont')
-    {{-- @if (session()->has('success'))
-        <div class="alert alert-warning alert-dismissible col-md-4 fade show" role="alert">
-            {{ session('success') }}
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
-    @endif --}}
     <div class="table-data">
         <div class="order">
             <div class="row justify-content-between mb-4">
